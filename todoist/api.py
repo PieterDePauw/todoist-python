@@ -35,7 +35,7 @@ from todoist.managers.uploads import UploadsManager
 from todoist.managers.user import UserManager
 from todoist.managers.user_settings import UserSettingsManager
 
-DEFAULT_API_VERSION = "v8"
+DEFAULT_API_VERSION = "v9"
 
 
 class SyncError(Exception):
